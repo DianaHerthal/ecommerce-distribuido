@@ -1,0 +1,29 @@
+2026-09-25 20:22:49.802 [main] INFO  org.example.loja.LojaApplication - Starting LojaApplication using Java 21.0.8 with PID 24624 (C:\Users\diana\IdeaProjects\ecommerce-distribuido\loja-web\target\classes started by diana in C:\Users\diana\IdeaProjects\ecommerce-distribuido\loja-web)
+2026-09-25 20:22:49.804 [main] INFO  org.example.loja.LojaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-25 20:22:50.329 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-25 20:22:50.338 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-25 20:22:50.338 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2026-09-25 20:22:50.371 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-25 20:22:50.371 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+2026-09-25 20:22:50.635 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-25 20:22:50.641 [main] INFO  org.example.loja.LojaApplication - Started LojaApplication in 1.101 seconds (process running for 1.298)
+2026-09-25 20:22:54.059 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 20:22:54.059 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-25 20:22:54.060 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-25 20:22:54.140 [http-nio-8080-exec-1] INFO  LOJA-WEB - ════════ INÍCIO DO FLUXO DE COMPRA ════════
+2026-09-25 20:22:54.141 [http-nio-8080-exec-1] INFO  LOJA-WEB - Pedido recebido: cliente=João da Silva itens=2 cep=01310-100
+2026-09-25 20:22:54.142 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 1] Solicitando catálogo de produtos
+2026-09-25 20:22:54.299 [http-nio-8080-exec-1] INFO  LOJA-WEB - Catálogo recebido: 3 produtos
+2026-09-25 20:22:54.299 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 2] Produtos escolhidos pelo usuário
+2026-09-25 20:22:54.300 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 3] Dados de pagamento e endereço informados
+2026-09-25 20:22:54.300 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 4] Consultando CEP 01310-100
+2026-09-25 20:22:54.674 [http-nio-8080-exec-1] INFO  LOJA-WEB - Endereço preenchido: Av. Paulista - São Paulo / SP
+2026-09-25 20:22:54.676 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 5] Compra CONFIRMADA valorTotal=4800.0
+2026-09-25 20:22:54.676 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 6] Enviando e-mail de confirmação
+2026-09-25 20:22:54.767 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 7] Processando pagamento
+2026-09-25 20:22:54.859 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 8] Enviando e-mail com resultado do pagamento
+2026-09-25 20:22:54.864 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 9] Gerando NF e baixando estoque
+2026-09-25 20:22:55.060 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 10] Enviando e-mail com a nota fiscal
+2026-09-25 20:22:55.069 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 11] Disponibilizando produtos para entrega
+2026-09-25 20:22:55.200 [http-nio-8080-exec-1] INFO  LOJA-WEB - [Etapa 12] Enviando e-mail com dados da entrega
+2026-09-25 20:22:55.212 [http-nio-8080-exec-1] INFO  LOJA-WEB - ════════ FLUXO CONCLUÍDO COM SUCESSO ════════

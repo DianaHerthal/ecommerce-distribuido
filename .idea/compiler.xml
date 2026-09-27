@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="loja-web" />
+        <module name="produtos-api" />
+        <module name="entrega-api" />
+        <module name="pagamento-api" />
+        <module name="email-api" />
+        <module name="fiscal-api" />
+        <module name="cep-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecommerce-distribuido" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cep-api" options="-parameters" />
+      <module name="ecommerce-distribuido" options="-parameters" />
+      <module name="email-api" options="-parameters" />
+      <module name="entrega-api" options="-parameters" />
+      <module name="fiscal-api" options="-parameters" />
+      <module name="loja-web" options="-parameters" />
+      <module name="pagamento-api" options="-parameters" />
+      <module name="produtos-api" options="-parameters" />
+    </option>
+  </component>
+</project>

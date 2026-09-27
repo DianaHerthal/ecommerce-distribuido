@@ -1,0 +1,18 @@
+2026-09-25 20:22:43.663 [main] INFO  o.e.produtos.ProdutosApplication - Starting ProdutosApplication using Java 21.0.8 with PID 30416 (C:\Users\diana\IdeaProjects\ecommerce-distribuido\produtos-api\target\classes started by diana in C:\Users\diana\IdeaProjects\ecommerce-distribuido\produtos-api)
+2026-09-25 20:22:43.666 [main] INFO  o.e.produtos.ProdutosApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-25 20:22:44.231 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-09-25 20:22:44.242 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-25 20:22:44.242 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2026-09-25 20:22:44.277 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-25 20:22:44.277 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 579 ms
+2026-09-25 20:22:44.473 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-09-25 20:22:44.478 [main] INFO  o.e.produtos.ProdutosApplication - Started ProdutosApplication in 1.063 seconds (process running for 1.294)
+2026-09-25 20:22:54.221 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 20:22:54.221 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-25 20:22:54.222 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-09-25 20:22:54.249 [http-nio-8081-exec-1] INFO  PRODUTOS-API - REQUEST  GET /produtos - Listando catálogo
+2026-09-25 20:22:54.250 [http-nio-8081-exec-1] INFO  PRODUTOS-API - RESPONSE 200 OK - 3 produtos retornados
+2026-09-25 20:22:55.054 [http-nio-8081-exec-4] INFO  PRODUTOS-API - REQUEST  POST /produtos/baixa-estoque - 2 itens
+2026-09-25 20:22:55.055 [http-nio-8081-exec-4] INFO  PRODUTOS-API - INFO     Estoque atualizado: Notebook Dell → 9 un.
+2026-09-25 20:22:55.055 [http-nio-8081-exec-4] INFO  PRODUTOS-API - INFO     Estoque atualizado: Mouse Logitech → 48 un.
+2026-09-25 20:22:55.056 [http-nio-8081-exec-4] INFO  PRODUTOS-API - RESPONSE 200 OK - Estoque baixado

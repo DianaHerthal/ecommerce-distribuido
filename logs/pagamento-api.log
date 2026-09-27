@@ -1,0 +1,14 @@
+2026-09-25 20:22:36.118 [main] INFO  o.e.pagamento.PagamentoApplication - Starting PagamentoApplication using Java 21.0.8 with PID 7980 (C:\Users\diana\IdeaProjects\ecommerce-distribuido\pagamento-api\target\classes started by diana in C:\Users\diana\IdeaProjects\ecommerce-distribuido\pagamento-api)
+2026-09-25 20:22:36.120 [main] INFO  o.e.pagamento.PagamentoApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-25 20:22:36.687 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2026-09-25 20:22:36.695 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-25 20:22:36.695 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2026-09-25 20:22:36.762 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-25 20:22:36.762 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2026-09-25 20:22:36.974 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2026-09-25 20:22:36.980 [main] INFO  o.e.pagamento.PagamentoApplication - Started PagamentoApplication in 1.139 seconds (process running for 1.39)
+2026-09-25 20:22:54.800 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 20:22:54.800 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-25 20:22:54.801 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-25 20:22:54.844 [http-nio-8083-exec-1] INFO  PAGAMENTO-API - REQUEST  POST /pagamentos - valor=4800.0 metodo=CREDITO
+2026-09-25 20:22:54.845 [http-nio-8083-exec-1] INFO  PAGAMENTO-API - RESPONSE 200 OK - Aprovado transacaoId=TX-1790378574844

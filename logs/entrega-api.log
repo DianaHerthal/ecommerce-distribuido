@@ -1,0 +1,14 @@
+2026-09-25 20:22:23.361 [main] INFO  o.example.entrega.EntregaApplication - Starting EntregaApplication using Java 21.0.8 with PID 18072 (C:\Users\diana\IdeaProjects\ecommerce-distribuido\entrega-api\target\classes started by diana in C:\Users\diana\IdeaProjects\ecommerce-distribuido\entrega-api)
+2026-09-25 20:22:23.363 [main] INFO  o.example.entrega.EntregaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-25 20:22:23.931 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8086 (http)
+2026-09-25 20:22:23.941 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-25 20:22:23.941 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2026-09-25 20:22:23.981 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-09-25 20:22:23.981 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 589 ms
+2026-09-25 20:22:24.372 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8086 (http) with context path '/'
+2026-09-25 20:22:24.376 [main] INFO  o.example.entrega.EntregaApplication - Started EntregaApplication in 1.276 seconds (process running for 1.474)
+2026-09-25 20:22:55.118 [http-nio-8086-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-25 20:22:55.118 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-25 20:22:55.119 [http-nio-8086-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-09-25 20:22:55.180 [http-nio-8086-exec-1] INFO  ENTREGA-API - REQUEST  POST /entregas → cidade=São Paulo itens=2
+2026-09-25 20:22:55.182 [http-nio-8086-exec-1] INFO  ENTREGA-API - RESPONSE 201 Created - Entrega agendada rastreio=BR-1790378575182 previsao=2026-09-30

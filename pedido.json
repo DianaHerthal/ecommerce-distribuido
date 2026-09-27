@@ -1,0 +1,10 @@
+{
+  "nomeCliente": "João da Silva",
+  "emailCliente": "joao@email.com",
+  "cep": "01310-100",
+  "metodoPagamento": "CREDITO",
+  "itens": [
+    { "id": 1, "nome": "Notebook", "preco": 4500.0, "quantidade": 1 },
+    { "id": 2, "nome": "Mouse",    "preco": 150.0,  "quantidade": 2 }
+  ]
+}
